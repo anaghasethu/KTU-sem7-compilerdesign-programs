@@ -1,7 +1,7 @@
 # CD-lab
 1.Design and implement a lexical analyzer for given language using C. The lexical analyzer should ignore redundant spaces, tabs and newlines.    
 2.Implementation of Lexical Analyzer using Lex Tool.    
-3a.Program to recognize a valid arithmetic expression that uses operator +, –, * and /.
+3a.Program to recognize a valid arithmetic expression that uses operator +, –, * and / .
 3b.Implementation of Calculator using LEX and YACC.    
 3c.Convert the BNF rules into YACC form and write code to generate abstract syntax tree.
 4.Write program to find ε – closure of all states of any given NFA with ε transition
