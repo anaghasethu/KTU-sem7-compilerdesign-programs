@@ -1,6 +1,8 @@
 # CD-lab
-1.Design and implement a lexical analyzer for given language using C. The lexical analyzer should ignore redundant spaces, tabs and newlines.    
+1.Design and implement a lexical analyzer for given language using C. The lexical analyzer should ignore redundant spaces, tabs and newlines.  
+
 2.Implementation of Lexical Analyzer using Lex Tool.    
+
 3a.Program to recognize a valid arithmetic expression that uses operator +, –, * and / .
 
 3b.Implementation of Calculator using LEX and YACC.    
