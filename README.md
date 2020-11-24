@@ -24,3 +24,5 @@
 10.Construct a recursive descent parser for an expression.
 
 11.Construct a Shift Reduce Parser for a given language.
+
+12. Write a program to perform loop unrolling.
