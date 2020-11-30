@@ -26,3 +26,5 @@
 11.Construct a Shift Reduce Parser for a given language.
 
 12.Write a program to perform loop unrolling.
+
+13.Write a program to perform constant propagation.
