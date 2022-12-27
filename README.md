@@ -1,41 +1,50 @@
-# CD-lab
+# Compiler Design Lab (KTU S7)
 
-                                            KTU CSE S7 COMPILER DESIGN LAB PROGRAMS 
-                                            
-                                            
-1.Design and implement a lexical analyzer for given language using C. The lexical analyzer should ignore redundant spaces, tabs and newlines.  
+------------
 
-2.Implementation of Lexical Analyzer using Lex Tool.    
+The following repository contains the programs associated with compiler design lab of the seventh semester as specified by APJAKTU. 
 
-3a.Program to recognize a valid arithmetic expression that uses operator +, –, * and / .
+## Programs
 
-3b.Implementation of Calculator using LEX and YACC.    
 
-3c.Convert the BNF rules into YACC form and write code to generate abstract syntax tree.
+#### 1. Lexical Analyzer - [[Source Code](https://raw.githubusercontent.com/anaghasethu/KTU-sem7-compilerdesign-programs/main/cd/p1_lexical_analyzer/11anaghasethu-p1.c "Source Code")] | [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p1_lexical_analyzer "Files")]
 
-4.Write program to find ε – closure of all states of any given NFA with ε transition
+#### 2. Lexical Analyzer using Lex Tool - [[Source Code](https://raw.githubusercontent.com/anaghasethu/KTU-sem7-compilerdesign-programs/main/cd/p2_lexicalanalyzer_lex/11anaghasethu-p2.l "Source Code")] | [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p2_lexicalanalyzer_lex "Files")]
 
-5.Write program to convert NFA with ε transition to NFA without ε transition.
+#### 3.&nbsp; a) Recognition of Arithmetic Expressions - [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p3a_expression_grammer "Files")]
+#### &nbsp; &nbsp;&nbsp; b) Calculator(Using LEX and YACC) - [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p3b_calculator_in_yacc "Files")] 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Abstract Syntax Tree(BNF to YACC) - [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p3c_abstract_syntax_tree "Files")]
 
-6.Write program to convert NFA to DFA.
+#### 4. ε-Closure of all states - [[Source Code](https://raw.githubusercontent.com/anaghasethu/KTU-sem7-compilerdesign-programs/main/cd/p4_Eclosure/11anaghasethu-p4.c "Source Code")] | [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p4_Eclosure "Files")]
 
-7.Write program to minimize any given DFA.
+#### 5. Remove ε-Transition from NFA - [[Source Code](https://raw.githubusercontent.com/anaghasethu/KTU-sem7-compilerdesign-programs/main/cd/p5_epsilon_nfa_to_nfa/11anaghasethu-p5.c "Source Code")] | [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p5_epsilon_nfa_to_nfa "Files")]
 
-8.Develop an operator precedence parser for a given language.
+#### 6. NFA to DFA Conversion - [[Source Code](https://raw.githubusercontent.com/anaghasethu/KTU-sem7-compilerdesign-programs/main/cd/p6_nfa_dfa/11anaghasethu-p6.c "Source Code")] | [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p6_nfa_dfa "Files")]
 
-9.Write program to Simulate First and Follow of any given grammar.
+#### 7. Minimization of DFA - [[Source Code](https://raw.githubusercontent.com/anaghasethu/KTU-sem7-compilerdesign-programs/main/cd/p7_dfa_minimisation/11anaghasethu-p7.c "Source Code")] | [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p7_dfa_minimisation "Files")]
 
-10.Construct a recursive descent parser for an expression.
+#### 8. Operator Precedence Parser - [[Source Code](https://raw.githubusercontent.com/anaghasethu/KTU-sem7-compilerdesign-programs/main/cd/p8_operator_precedence/11anaghasethu-p8.c "Source Code")] | [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p8_operator_precedence "Files")]
 
-11.Construct a Shift Reduce Parser for a given language.
+#### 9. Simulating First and Follow - [[Source Code](https://raw.githubusercontent.com/anaghasethu/KTU-sem7-compilerdesign-programs/main/cd/p9_firstandfollow/11anaghasethu-p9.c "Source Code")] | [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p9_firstandfollow "Files")]
 
-12.Write a program to perform loop unrolling.
+#### 10. Recursive Descent Parser - [[Source Code](https://raw.githubusercontent.com/anaghasethu/KTU-sem7-compilerdesign-programs/main/cd/p10_recursice_descend_parser/11anaghasethu-p10.c "Source Code")] | [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p10_recursice_descend_parser "Files")]
 
-13.Write a program to perform constant propagation.
+#### 11. Shift Reduce Parser - [[Source Code](https://raw.githubusercontent.com/anaghasethu/KTU-sem7-compilerdesign-programs/main/cd/p11_shift_reduce_parser/11anaghasethu-p11.c "Source Code")] | [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p11_shift_reduce_parser "Files")]
 
-14.To implement intermediate code generation for simple expressions.
+#### 12. Loop Unrolling - [[Source Code](https://raw.githubusercontent.com/anaghasethu/KTU-sem7-compilerdesign-programs/main/cd/p12_loopunrolling/11anaghasethu-p12.c "Source Code")] | [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p12_loopunrolling "Files")]
 
-15.Implement the back end of the compiler which takes the three address code
-and produces the 8086 assembly language instructions that can be assembled
-and run using an 8086 assembler. The target assembly instructions can be
-simple move, add, sub, jump etc.
+#### 13. Constant Propagation - [[Source Code](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p13_constant_propagation "Source Code")] | [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p13_constant_propagation "Files")]
+
+#### 14. Intermediate Code Generation(Expression to Assembly) - [[Source Code](https://raw.githubusercontent.com/anaghasethu/KTU-sem7-compilerdesign-programs/main/cd/p14_intermediate_code/11anaghasethu-p14.c "Source Code")] | [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p14_intermediate_code "Files")]
+
+#### 15. Compiler Integration(Backend) - [[Source Code](https://raw.githubusercontent.com/anaghasethu/KTU-sem7-compilerdesign-programs/main/cd/p15_compiler_backend/11anaghasethu-p15.c "Source Code")] | [[Files](https://github.com/anaghasethu/KTU-sem7-compilerdesign-programs/tree/main/cd/p15_compiler_backend "Files")]
+
+
+------------
+
+
+Each program comes with the documentation, source code and the input files (wherever applicable). You can find this as a webpage [here](https://anaghasethu.github.io/KTU-sem7-compilerdesign-programs/ "here") or use this shortened link 
+`https://bit.ly/cds7ktu`
+
+------------
+
